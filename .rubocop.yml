@@ -1,0 +1,11 @@
+AllCops:
+  Exclude:
+    - "README.md"
+    - "Gemfile"
+    - "Rakefile"
+
+  SuggestExtensions: false
+  DisplayCopNames: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
